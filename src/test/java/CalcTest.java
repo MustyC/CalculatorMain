@@ -24,7 +24,7 @@ public class CalcTest {
     @Test
     @DisplayName("Multiplication test")
     public void multiplyTwoNumbers(){
-        Calculator calculator = new Calculator();
+        Calculator calculator = new Calculator(); //test
         int actualResult = calculator.multiply(5,5);
         Assertions.assertEquals( 25, actualResult);
     }
